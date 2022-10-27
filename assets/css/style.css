@@ -8,9 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+}
+section {
+  background: #f1f1f1;
 }
 
 a {
@@ -78,7 +82,9 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: rgb(33, 46, 95);
+  opacity: 0.99;
+
   overflow-y: auto;
 }
 
@@ -333,6 +339,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -417,7 +424,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -451,6 +458,10 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+
+#skills {
+  background: #f1f1f1;
 }
 
 /*--------------------------------------------------------------
@@ -613,6 +624,14 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+}
+
+.img-fluid {
+  border-radius: 15px;
+}
+
+#portfolio {
+  background: #f1f1f1;
 }
 
 /*--------------------------------------------------------------
