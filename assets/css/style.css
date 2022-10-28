@@ -82,8 +82,11 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: rgb(33, 46, 95);
-  opacity: 0.99;
+  background-color: var(--theme-secondary-black-translucent);
+  border: 0.5px solid var(--theme-dark-white-translucent);
+  backdrop-filter: blur(1rem);
+  --theme-secondary-black-translucent: rgba(22, 26, 29, 25%);
+  --theme-dark-white-translucent: rgba(72, 67, 66, 25%);
 
   overflow-y: auto;
 }
