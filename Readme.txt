@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+# Portfolio Website Version 1
 
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+This is my first portfolio website and I am using a bootstrap template.  I would like to build my own portfolio website, so stay tuned for version 2!  For now, please visit my portfolio website at [www.ianmcbee.com](www.ianmcbee.com)
