@@ -595,7 +595,7 @@ section {
   opacity: 1;
   left: 0;
   right: 0;
-  bottom: -60px;
+  bottom: -300px;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -639,6 +639,18 @@ section {
 
 #portfolio {
   background: #f1f1f1;
+}
+
+.portfolio .portfolio-wrap:hover #project-description {
+  color: black;
+  padding: 2rem;
+  font-size: 0.8rem;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*--------------------------------------------------------------
